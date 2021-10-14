@@ -1,0 +1,36 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 128,
+  "height": 128,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "tiles",
+      "_eid": "22657540",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 16,
+      "gridCellHeight": 16,
+      "gridCellsX": 8,
+      "gridCellsY": 8,
+      "tileset": "Tiles",
+      "data": [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 2, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 2, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "exportMode": 0,
+      "arrayMode": 0
+    },
+    {
+      "name": "entities",
+      "_eid": "22652086",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 16,
+      "gridCellHeight": 16,
+      "gridCellsX": 8,
+      "gridCellsY": 8,
+      "entities": [
+        {"name": "Pac", "id": 0, "_eid": "22666779", "x": 48, "y": 48, "originX": 0, "originY": 0}
+      ]
+    }
+  ]
+}
