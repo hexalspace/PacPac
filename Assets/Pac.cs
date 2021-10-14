@@ -14,6 +14,29 @@ public class Pac : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var speed = 1;
 
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.position += transform.right * Time.deltaTime * speed;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position += -transform.right * Time.deltaTime * speed;
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.position += transform.up * Time.deltaTime * speed;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position += -transform.up * Time.deltaTime * speed;
+        }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("PacTrigHIT");
+    }
+
 }
